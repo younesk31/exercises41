@@ -14,9 +14,11 @@ public class Zoo {
         animals.add(Animal);
     }
 
-    public static void printNumberOfLegs() {
+    public static void printNumberOfLegs(){
+        int legs=0;
         for (String Animal : animals) {
-
+            legs += 1*4;
         }
+        System.out.println("Total number of legs in my zoo: "+legs);
     }
 }

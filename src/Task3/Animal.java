@@ -11,4 +11,8 @@ public class Animal implements AnimalSound {
     public int getNumberOfLegs() {
         return numberOfLegs;
     }
+
+    public void setNumberOfLegs(int numberOfLegs) {
+        this.numberOfLegs = numberOfLegs;
+    }
 }

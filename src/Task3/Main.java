@@ -4,13 +4,10 @@ import static Task3.Zoo.animals;
 public class Main {
     public static void main(String[] args) {
 
-        Zoo.addAnimal("Zebra");
-        Zoo.addAnimal("Gorilla");
-        Zoo.addAnimal("Panda");
-        Zoo.addAnimal("Horse");
+        Zoo.addAnimal("Crocodile"); Zoo.addAnimal("Horse"); Zoo.addAnimal("Zebra");
         Zoo.makeAllSounds();
+        Zoo.printNumberOfLegs();
 
-
-        System.out.println("Animals in the Zoo : " + animals);
+        System.out.println("The Amount of Animals in the Zoo is "+animals.size()+" And their types are " + animals);
     }
 }
